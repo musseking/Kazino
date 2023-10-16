@@ -15,12 +15,17 @@ public class Main {
         	int number;
 
         	for(int i = 0; i < nizKladionicara.length; ++i) {
+
+		    System.out.println();
             	    System.out.print("Unesite ime kladionicara broj " + (i + 1) + ". ");
             	    name = scanner.next();
 
+		    System.out.println();
+		    System.out.println("Moguce igre su: poker, rulet i ajnc.");
 	    	    System.out.print("Unesite igru (malim slovima) koju igra kladionicar broj " + (i + 1) + ". ");
 	            game = scanner.next();
-
+			
+		    System.out.println();
 	            System.out.print("Unesite koliko para ima kladionicar broj " + (i + 1) + ". ");
 	            number = scanner.nextInt();
 
