@@ -13,15 +13,6 @@ public class Kladionicar {
 		} else {
 			this.igra = "poker";
 		}
-		// if (novaIgra.equals("poker")) {
-		// 	this.igra = "poker";
-		// } else if (novaIgra.equals("ajnc")) {
-		// 	this.igra = "ajnc";
-		// } else if (novaIgra.equals("rulet")) {
-		// 	this.igra = "rulet";
-		// } else {
-		// 	this.igra = "poker";
-		// }
 	}
 
 	public void setIme(String novoIme) {
@@ -29,12 +20,8 @@ public class Kladionicar {
 	}
 
 	public void setIgra(String novaIgra) {
-		if (novaIgra.equals("poker")) {
-			this.igra = "poker";
-		} else if (novaIgra.equals("ajnc")) {
-			this.igra = "ajnc";
-		} else if (novaIgra.equals("rulet")) {
-			this.igra = "rulet";
+		if (novaIgra.equals("poker") || novaIgra.equals("ajnc") || novaIgra.equals("rulet")) {
+			this.igra = novaIgra;
 		} else {
 			this.igra = "poker";
 		}
