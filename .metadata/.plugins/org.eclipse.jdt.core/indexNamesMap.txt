@@ -1,3 +1,0 @@
-INDEX VERSION 1.132
-file:/C:/PMF/OOP1/cas1%20-%20vezbe/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
-meta_index
