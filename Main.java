@@ -52,7 +52,7 @@ public class Main {
         
 		System.out.println();
 
-		System.out.println(kazino.theMostProfitabileGame(nizKladionicara));
+		System.out.println(kazino.najprofitnijaIgra());
 
 		scanner.close();	
 	}
