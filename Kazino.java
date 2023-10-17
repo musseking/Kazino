@@ -20,7 +20,6 @@ public class Kazino {
 		return result;
  	}
 
-	//Mišin metod:
 	private int findIndexOfMaximum(int[] prosledjeniNiz) {
 		int maxIndex = 0;
 		for (int i = 0; i < prosledjeniNiz.length; ++i) {
@@ -31,7 +30,6 @@ public class Kazino {
 		return maxIndex;
 	}
 
-	//Mišin metod:
 	public String najprofitnijaIgra() {
 
 		String[] igre = {"poker", "ajnc", "rulet"};
@@ -46,22 +44,5 @@ public class Kazino {
 
 		String najprofitabilnijaIgra = igre[findIndexOfMaximum(stanja)];
 		return String.format("Najprofitabilnija igra je trenutno %s.", najprofitabilnijaIgra);
-	}
-
-	public String theMostProfitabileGame(Kladionicar[] proslednjeniNiz) {
-
-		String result = "";
-		List<String> list = new ArrayList<>();
-
-		for (int i = 0; i < proslednjeniNiz.length; ++i) {
-			if (proslednjeniNiz[i].getRacun() < 0)
-				list.add(proslednjeniNiz[i].getIgru());
-			else
-				continue;
-		}
-
-		result += list.get(0);
-
-		return "Trenutno najprofitabilnija igra je " + result + ".";
 	}
 }
